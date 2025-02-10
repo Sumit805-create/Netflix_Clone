@@ -1,51 +1,26 @@
-# Netflix_Clone
-A fully functional Netflix Clone App built using Kotlin, Jetpack Compose, and Retrofit with JWT authentication and Razorpay payment integration for subscriptions. This app provides a seamless streaming experience with an intuitive UI and adaptive video playback.  
+# Netflix clone
 
-🚀 Features  
+Netflix clone is created in android with MVVM architecture. It uses APIs from [TMDB - The Movie Database](https://www.themoviedb.org/documentation/api). It contains features like Trailer playback, Home feed, Movies coming soon, Search / View for movie, tv shows.
 
-🔑 Authentication & User Management  
+## Preview
+<img src="https://i.ibb.co/xS3hL8p/1.jpg" width=300/>
+<img src="https://i.ibb.co/zxT5vzV/2.jpg" width=300/>
+<img src="https://i.ibb.co/Yd1BwRZ/3.jpg" width=300/>
+<img src="https://i.ibb.co/3TMhrk5/4.jpg" width=300/>
+<img src="https://i.ibb.co/QfwrfRZ/5.jpg" width=300/>
+<img src="https://i.ibb.co/p3ZFk8Q/6.jpg" width=300/>
+<img src="https://i.ibb.co/gT5Lkq1/7.jpg" width=300/>
+<img src="https://i.ibb.co/k4hsykL/8.jpg" width=300/>
 
-✔ Sign-up & Login – Secure user registration and authentication using JWT tokens.  
+## Download APK
+Download and try the latest apk from [here](https://github.com/Gopalakrishnan-V/netflix-clone/releases)
 
-✔ Token-based Authentication – Ensures secure access to protected content.  
+## Local setup
+* Generate an api_key from [https://developers.themoviedb.org/3](https://developers.themoviedb.org/3)\
+* Update the following line in local.properties
+```
+api_key=YOUR_TMDB_API_KEY
+```
 
-
-🎥 Movie Streaming & Browsing  
-
-✔ Homepage – Showcases trending and recommended movies.  
-
-✔ Movie Categories – Movies are organized into categories for easy navigation.  
-
-✔ Category List – Displays all movies under a specific category.
-
-✔ Movie Detail Page – Provides descriptions, ratings, and streaming options.  
-
-✔ Adaptive Streaming – Ensures smooth video playback with HLS streaming support.
-
-💳 Subscription & Payments  
-
-✔ Subscription Flow – Users can subscribe to different plans.  
-
-✔ Plan Selection & Details – Multiple plans with different features.  
-
-✔ Payment Integration – Uses Razorpay Payment Gateway for seamless transactions.  
-
-✔ Payment Success & Welcome Screen – Displays confirmation and access to premium content.  
-
-
-⚠ Error Handling  
-
-✔ Error Screen – User-friendly error messages in case of failures.  
-
-
-🛠 Tech Stack  
-
-Kotlin – Primary language for Android development.  
-
-Jetpack Compose – Modern UI toolkit for declarative UI design.  
-
-Retrofit – API client for backend communication.  
-
-JWT Authentication – Secure token-based authentication.
-ExoPlayer – Handles adaptive movie streaming.
-Razorpay Payment Gateway – Handles secure online payments.
+## Contributing
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="planGroup" type="id" />
+    <item name="btnContinue" type="id" />
+    <item name="planBasic" type="id" />
+    <item name="planStandard" type="id" />
+    <item name="planPremium" type="id" />
+    <item name="planTitle" type="id" />
+    <item name="textViewError" type="id" />
+    <item name="buttonRetry" type="id" />
+</resources>

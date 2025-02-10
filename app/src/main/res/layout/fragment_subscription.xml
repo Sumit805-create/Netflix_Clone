@@ -1,0 +1,46 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="20dp">
+
+    <TextView
+        android:id="@+id/planTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Choose a Plan"
+        android:textSize="22sp"
+        android:textStyle="bold"/>
+
+    <RadioGroup
+        android:id="@+id/planGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/planBasic"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Basic - $8.99/month"/>
+
+        <RadioButton
+            android:id="@+id/planStandard"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Standard - $13.99/month"/>
+
+        <RadioButton
+            android:id="@+id/planPremium"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Premium - $17.99/month"/>
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/btnContinue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Continue to Payment"/>
+</LinearLayout>
